@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# creating static library
+
+g++ -c Number/Number.cpp -o Number.o -fPIC
+ar rcs libNumber.a Number.o
+
+# creating dinamic library
+
+g++ -c Vector/Vector.cpp -o Vector.o -fPIC
+g++ -shared Vector.o -L. -lNumber -o libVector.so
+export LD_LIBRARY_PATH=$PWD
+
+# linking all
+g++ -Wl,-rpath=$PWD main.cpp -L. -lNumber -L. -lVector  -o main
+./main
+
+# removing temporary files
+rm *.o
+

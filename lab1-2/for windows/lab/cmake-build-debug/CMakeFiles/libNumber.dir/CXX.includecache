@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nayap/course_2/OSs/lab/Number/Number.cpp
+Number.h
+C:/Users/nayap/course_2/OSs/lab/Number/Number.h
+cmath
+-
+
+C:/Users/nayap/course_2/OSs/lab/Number/Number.h
+iostream
+-
+
