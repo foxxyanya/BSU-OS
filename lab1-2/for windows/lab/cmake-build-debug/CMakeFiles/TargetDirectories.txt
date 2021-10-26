@@ -1,5 +1,0 @@
-C:/Users/nayap/course_2/OSs/lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/nayap/course_2/OSs/lab/cmake-build-debug/CMakeFiles/libNumber.dir
-C:/Users/nayap/course_2/OSs/lab/cmake-build-debug/CMakeFiles/libVector.dir
-C:/Users/nayap/course_2/OSs/lab/cmake-build-debug/CMakeFiles/lab.dir
-C:/Users/nayap/course_2/OSs/lab/cmake-build-debug/CMakeFiles/edit_cache.dir
